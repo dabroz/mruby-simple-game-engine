@@ -1,0 +1,14 @@
+---
+Language:        Cpp
+BreakBeforeBraces: Allman
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+IndentWidth:     4
+Standard:        Cpp11
+TabWidth:        4
+UseTab:          Never
+SortIncludes: false
+ColumnLimit:     240
+AllowShortFunctionsOnASingleLine: None
+NamespaceIndentation: None
+MaxEmptyLinesToKeep: 1

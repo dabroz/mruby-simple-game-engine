@@ -1,0 +1,26 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  DisplayCopNames: true
+  Exclude:
+    - mruby/**/*
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 15
+
+Style/NumericPredicate:
+  Enabled: false
+
+Style/GlobalVars:
+  Enabled: false
+
+Style/ZeroLengthPredicate:
+  Enabled: false # not supported by mruby
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Performance/Casecmp:
+  Enabled: false
